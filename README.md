@@ -10,7 +10,9 @@ LST Lending AMM is a Solana-based decentralized lending and borrowing program(pr
 
 This program(protocol) is designed to ensure efficiency, scalability, and security while maintaining capital efficiency for lenders and borrowers.
 
----
+## License
+This project is under the **MIT LICENSE**
+
 
 ## 🚀 **Features**
 
@@ -130,5 +132,3 @@ let interest_rate = if utilization < 80 { 5 } else { 10 + (utilization - 80) };
 
 ---
 
-## License
-This project is under the **MIT LICENSE**
