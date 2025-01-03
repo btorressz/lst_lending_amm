@@ -118,9 +118,8 @@ pub fn get_price_instruction(ctx: Context<GetPrice>) -> Result<u64>
 
 **Formula:**
 let interest_rate = if utilization < 80 { 5 } else { 10 + (utilization - 80) };
-```
 
----
+
 
 ## 📢 **Events**
 - **CollateralDeposited:** Logs user collateral deposits.
