@@ -127,8 +127,8 @@ let interest_rate = if utilization < 80 { 5 } else { 10 + (utilization - 80) };
 - **AssetBorrowed:** Logs borrowing activity.
 - **PositionLiquidated:** Logs liquidation events.
 
----
 
 
----
+
+
 
